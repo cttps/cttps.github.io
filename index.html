@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+    <div class="absolute md:sticky bg-white grid place-items-center rounded-xl top-0 w-full max-h-12 min-h-12">
+      <div class="max-w-2xl w-full flex top-0 max-h-12 min-h-12 items-center border-b border-neutral-300">
+        <div class="static ml-4 justify-start group h-12 transition-all duration-300 overflow-y-hidden min-w-fit">
+          <p class="mt-3 w-full group-hover:-translate-y-9 text-center transition-all duration-300">
+            cttps's website
+          </p>
+          <a class="block mt-3 w-full group-hover:-translate-y-9 text-center transition-all duration-300" href="https://x.com/cttpnotsecure">
+            @cttps
+          </a>
+        </div>
+        <div class="w-full flex justify-end mr-4">
+          <a href="https://github.com/cttps">github</a>
+        </div>
+      </div>
+    </div>
+  <!-- Main Content -->
+    <div class="w-full pt-12 grid grid-cols-1 place-items-center">
+      <div class="grid grid-cols-1 place-items-center max-w-2xl w-full">
+        <h1 class="text-lg text-left w-full font-semibold py-2">Projects</h1>
+        <div class="w-full border-l-2 items-end pt-2">
+          <div class="pl-2 grid place-items-start bg-gradient-to-r group hover:to-neutral-50 group hover:from-neutral-100 transition-all duration-300">
+            <h2 class="-translate-x-2 pl-2 group-hover:from-transparent bg-gradient-to-l from-neutral-50 to-transparent text-lg w-full font-semibold">Quickdraw vs</h2> <!-- -translate-x-[1px]  hover:tracking-tighter transition-all duration-300 hover:bg-gradient-to-r from-transparent to-neutral-100 -->
+            <div class="text-opacity-0 border-l-2 pl-4 group-hover:pb-4 group-hover:p-2 transition-all duration-300">
+              <p class="text-sm group-hover:text-base group-hover:border line-clamp-2 group-hover:line-clamp-none bg-transparent group-hover:bg-white p-1 group-hover:p-4 group-hover:rounded-xl transition-all duration-300">
+                A project a friend and I started. Both on <a>github</a>, and hosted at <a>quickdrawvs.com</a>. Essentially it's a game where you compete to see who's drawing can get classified by
+                a NN first. It was my first time training any NN, so I learned a lot. I used pytorch for this one.
+                We went with fastAPI for a few reasons, but it was pretty easy to pick up. I mostly focused on the model,
+                frontend drawing, and system design, but I think both of us touched all areas of the project since we were working together.
+                We used redis and websockets, and it sort of inspired me to make my own project using them later down the line in Go.
+                Overall great experience
+              </p>
+            </div>
+          </div>
+          <!-- <div class="w-full ml-4 border-l-2 border-neutral-500 pt-2">
+            <h2 class="-translate-x-[1px]">- Projects</h2>
+          </div> -->
+        </div>
+        <a>click me</a>
+      </div>
+    </p>
+</body>
+</html>

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cttps/cttps.github.io/issues"
   },
-  "homepage": "https://github.com/cttps/cttps.github.io#readme"
+  "homepage": "https://github.com/cttps/cttps.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }

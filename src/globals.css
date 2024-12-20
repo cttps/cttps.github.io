@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-neutral-400
+}
+
+a {
+    @apply text-black;
+    @apply inline-block hover:font-bold cursor-pointer tracking-normal hover:tracking-widest transition-all duration-300;
+}
