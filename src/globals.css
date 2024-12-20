@@ -1,3 +1,5 @@
+/* TODO: AUTOMATE TAILWIND BUILD ON PUSH/COMMIT */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,5 +10,5 @@ body {
 
 a {
     @apply text-black;
-    @apply inline-block hover:font-bold cursor-pointer tracking-normal hover:tracking-widest transition-all duration-300;
+    @apply inline-block hover:font-bold cursor-pointer tracking-normal hover:tracking-widest transition-all duration-300 select-none;
 }
